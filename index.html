@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio src="halloween.mp3" id="halloweenAudio" loop="loop" autoplay="allowed"></audio>
+
+    <div class="header">
+        <h1>Halloween is around the corner!</h1>
+    </div>
+
+    <div class="button">
+    <button id="playButton"><img src="icon.png" alt="playicon"></button>
+    </div>
+
+    <div class="countdown-container">
+
+        <div class="round-container">
+            <div class="block">
+            <h3 class="days"></h3>
+            <h3 class="count">Days</h3>
+            </div>
+        </div>
+
+        <div class="round-container">
+            <div class="block">
+            <h3 class="hours"></h3>
+            <h3 class="count">Hours</h3>
+            </div>
+        </div>
+
+        <div class="round-container">
+            <div class="block">
+            <h3 class="minutes"></h3>
+            <h3 class="count">Minutes</h3>
+            </div>
+        </div>
+
+        <div class="round-container">
+            <div class="block">
+            <h3 class="seconds"></h3>
+            <h3 class="count">Seconds</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
